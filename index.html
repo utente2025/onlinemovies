@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carica Film</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Il Mio Archivio Film</h1>
+
+    <!-- Form per aggiungere un film -->
+    <form id="filmForm">
+      <input type="text" id="titolo" placeholder="Titolo del film" required>
+      <input type="text" id="regista" placeholder="Regista" required>
+      <input type="number" id="anno" placeholder="Anno" required>
+      <button type="submit">Aggiungi Film</button>
+    </form>
+
+    <!-- Lista dei film -->
+    <ul id="filmList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
